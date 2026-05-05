@@ -15,9 +15,38 @@ Este proyecto implementa los conceptos fundamentales de la **Programación Orien
 - Aplicación en un sistema real de préstamos
 
 El proyecto está dividido en tres partes:
-- Taller 1: Gestión de libros
-- Taller 2: Cuenta bancaria con encapsulación
-- Proyecto integrador: Sistema de préstamos de equipos
+
+### Taller 1: Gestión de libros
+
+En este taller se crea una clase "Libro" que simula el funcionamiento básico de una biblioteca.
+
+Permite:
+- Registrar libros con título, autor y número de páginas.
+- Prestar libros cambiando su estado a "no disponible".
+- Devolver libros y actualizar su estado.
+- Consultar la información completa del libro.
+
+### Taller 2: Cuenta bancaria con encapsulación
+
+En este taller se implementa una clase "CuentaBancaria" aplicando el concepto de encapsulación.
+
+Permite:
+- Manejar un titular y un saldo privado.
+- Consultar datos de forma controlada mediante propiedades.
+- Depositar dinero validando valores positivos.
+- Retirar dinero verificando saldo disponible.
+- Evitar valores inválidos como saldos negativos.
+
+### Proyecto integrador: Sistema de préstamos de equipos
+
+Este proyecto simula un sistema real de préstamos de equipos mediante un menú interactivo.
+
+Permite:
+- Ver equipos disponibles.
+- Registrar préstamos con usuario y fecha.
+- Devolver equipos.
+- Consultar historial de préstamos.
+- Agregar nuevos equipos al sistema.
 
 ---
 
@@ -48,6 +77,8 @@ Se evidencia el cambio de estado del libro entre “Disponible” y “Prestado�
 ![evidencia template](/images/Taller%202.png)
 
 Se muestran operaciones seguras sobre el saldo. La encapsulación evita modificar directamente los atributos y protege contra valores inválidos como saldos negativos.
+
+### Proyecto Integrador
 
 ![evidencia template](/images/Taller%203.png)
 
